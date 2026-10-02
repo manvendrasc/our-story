@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     EDIT ME: page title and preview text shown when you share
+     the link on WhatsApp, Instagram or email.
+     ============================================================ -->
+<title>Aarav &amp; Isha &middot; Our Story</title>
+<meta name="description" content="Some stories are written. Ours unfolded. Join us as we celebrate our story and the beginning of forever.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aarav &amp; Isha &middot; Our Story">
+<meta property="og:description" content="Some stories are written. Ours unfolded. Join us as we celebrate our story and the beginning of forever.">
+<meta property="og:image" content="photos/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#6F2335">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&family=Great+Vibes&display=swap">
+
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preload" as="image" href="photos/hero.jpg">
+</head>
+
+<body>
+
+<a class="skip-link" href="#chapter-hello">Skip to our story</a>
+
+<header class="site-nav" id="siteNav">
+  <div class="site-nav__inner">
+    <a class="monogram" href="#top" aria-label="Back to top">
+      <!-- EDIT ME: your initials -->
+      A<span>&amp;</span>I
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+      <span class="nav-toggle__bars" aria-hidden="true"></span>
+      <span class="nav-toggle__label">Menu</span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Primary">
+      <ul>
+        <li><a href="#top" data-nav>Home</a></li>
+        <li><a href="#story" data-nav>Our Story</a></li>
+        <li><a href="#photos" data-nav>Our Photos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== THE COVER ===================== -->
+  <section class="cover" aria-labelledby="coverHeading">
+    <div class="cover__media">
+      <img src="photos/hero.jpg" alt="Aarav and Isha together on the evening of their engagement" fetchpriority="high" width="1600" height="2000">
+    </div>
+
+    <div class="cover__panel">
+      <p class="eyebrow">Our wedding story</p>
+
+      <h1 class="cover__names" id="coverHeading">
+        <!-- EDIT ME: your names -->
+        <span class="name">Aarav</span>
+        <span class="amp">&amp;</span>
+        <span class="name">Isha</span>
+      </h1>
+
+      <p class="cover__line script">Some stories are written.<br>Ours unfolded.</p>
+
+      <div class="rule" aria-hidden="true"><span></span>&#10022;<span></span></div>
+
+      <!-- EDIT ME: date + city -->
+      <p class="cover__meta">
+        <time datetime="2027-03-13">Saturday, 13 March 2027</time>
+        <span class="dot" aria-hidden="true">&middot;</span>
+        Jaipur, India
+      </p>
+
+      <!-- EDIT ME: set data-date to your wedding date (YYYY-MM-DD) -->
+      <p class="countdown" id="countdown" data-date="2027-03-13" hidden></p>
+
+      <a class="btn" href="#chapter-hello">Begin our story</a>
+    </div>
+
+    <a class="scroll-cue" href="#chapter-hello" aria-hidden="true" tabindex="-1">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===================== OUR STORY ===================== -->
+  <div id="story" class="anchor-offset"></div>
+
+  <section class="chapters" aria-labelledby="storyHeading">
+
+    <header class="section-head reveal">
+      <p class="eyebrow">Our story</p>
+      <h2 id="storyHeading">Chapters of Us</h2>
+      <div class="rule" aria-hidden="true"><span></span>&#10022;<span></span></div>
+    </header>
+
+    <!-- -------- CHAPTER ONE -------- -->
+    <article class="chapter" id="chapter-hello">
+      <figure class="chapter__media reveal">
+        <img src="photos/chapter-hello.jpg" alt="A candid photograph from the day we first met" loading="lazy" width="1400" height="1000">
+      </figure>
+
+      <div class="chapter__text reveal">
+        <p class="chapter__no">Chapter One</p>
+        <h3>Once Upon a Hello</h3>
+        <p class="chapter__when">October 2021 &middot; A friend's birthday dinner</p>
+        <!-- EDIT ME -->
+        <p>It began with a seat that was not meant for either of us. A table of eleven, one chair short, and a conversation that started with an apology and did not stop for four hours. We talked about terrible films, good coffee, and the cities we still wanted to see.</p>
+        <p>Neither of us remembers who texted first. We both remember that nobody replied late, not once, not ever.</p>
+      </div>
+    </article>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- -------- CHAPTER TWO: FILM STRIP -------- -->
+    <article class="chapter chapter--wide" id="chapter-moments">
+      <div class="chapter__text chapter__text--center reveal">
+        <p class="chapter__no">Chapter Two</p>
+        <h3>Little Moments, Big Memories</h3>
+        <!-- EDIT ME -->
+        <p>The years in between were made of small, ordinary, perfect things &mdash; airports and road trips, rainy balconies, burnt dinners, and festivals with far too much family.</p>
+      </div>
+
+      <div class="filmstrip reveal" role="group" aria-label="Memories from the years in between">
+        <!-- EDIT ME: swap the photos and captions below -->
+        <figure class="filmstrip__item">
+          <img src="photos/moments-01.jpg" alt="Our first trip together" loading="lazy" width="900" height="1100">
+          <figcaption><strong>Our first trip</strong><span>Udaipur, 2022</span></figcaption>
+        </figure>
+        <figure class="filmstrip__item">
+          <img src="photos/moments-02.jpg" alt="A rainy evening on the balcony" loading="lazy" width="900" height="1100">
+          <figcaption><strong>Rain, chai, no plans</strong><span>Mumbai, 2023</span></figcaption>
+        </figure>
+        <figure class="filmstrip__item">
+          <img src="photos/moments-03.jpg" alt="Celebrating Diwali with our families" loading="lazy" width="900" height="1100">
+          <figcaption><strong>Our first Diwali</strong><span>Jaipur, 2023</span></figcaption>
+        </figure>
+        <figure class="filmstrip__item">
+          <img src="photos/moments-04.jpg" alt="A quiet morning at home" loading="lazy" width="900" height="1100">
+          <figcaption><strong>Ordinary Sundays</strong><span>Home, 2024</span></figcaption>
+        </figure>
+      </div>
+
+      <p class="filmstrip__hint" aria-hidden="true">Scroll sideways &rarr;</p>
+    </article>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- -------- CHAPTER THREE: QUOTE -------- -->
+    <article class="chapter chapter--quote reveal" id="chapter-knew">
+      <div class="quote__media">
+        <img src="photos/chapter-knew.jpg" alt="The two of us on a quiet evening together" loading="lazy" width="1600" height="900">
+      </div>
+      <blockquote class="quote__text">
+        <p class="chapter__no">Chapter Three</p>
+        <h3>When We Knew</h3>
+        <!-- EDIT ME -->
+        <p class="script">&ldquo;It was not one grand moment. It was a thousand small ones, all pointing the same way.&rdquo;</p>
+        <footer>There was no single day. Only the slow, certain realisation that every good piece of news, every bad one, and every ordinary Tuesday was already being shared with the same person.</footer>
+      </blockquote>
+    </article>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- -------- CHAPTER FOUR -------- -->
+    <article class="chapter chapter--reverse" id="chapter-proposal">
+      <figure class="chapter__media reveal">
+        <img src="photos/chapter-proposal.jpg" alt="The moment just after the proposal" loading="lazy" width="1400" height="1000">
+      </figure>
+
+      <div class="chapter__text reveal">
+        <p class="chapter__no">Chapter Four</p>
+        <h3>The Proposal</h3>
+        <p class="chapter__when">December 2025 &middot; Where it all started</p>
+        <!-- EDIT ME -->
+        <p>The plan was dinner. The reality was a detour, a long walk, and a very badly hidden box. There were no fireworks and no crowd &mdash; only one question, asked twice because the first time came out as a whisper.</p>
+        <p>The answer, for the record, was immediate.</p>
+      </div>
+    </article>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- -------- CHAPTER FIVE -------- -->
+    <article class="chapter chapter--final reveal" id="chapter-next">
+      <p class="chapter__no">Chapter Five</p>
+      <h3>Our Next Chapter</h3>
+      <!-- EDIT ME -->
+      <p class="lede">And now, the part we get to write with you in it.</p>
+      <p>We are getting married in the city where our families began, surrounded by the people who turned two separate stories into one. Come for the vows, stay for the food, the music, and the dancing that will almost certainly run late.</p>
+
+      <div class="save-date">
+        <!-- EDIT ME -->
+        <p class="save-date__day"><time datetime="2027-03-13">13 March 2027</time></p>
+        <p class="save-date__place">Jaipur, India</p>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ===================== OUR PHOTOS ===================== -->
+  <div id="photos" class="anchor-offset"></div>
+
+  <section class="gallery-section" aria-labelledby="photosHeading">
+    <header class="section-head reveal">
+      <p class="eyebrow">Our photos</p>
+      <h2 id="photosHeading">The Album</h2>
+      <div class="rule" aria-hidden="true"><span></span>&#10022;<span></span></div>
+      <p class="section-head__note">A few of our favourite frames.</p>
+    </header>
+
+    <!-- Photos are listed in content/site-content.js so you can add or
+         remove them without touching this file. -->
+    <div class="gallery" id="gallery"></div>
+
+    <noscript>
+      <p class="noscript-note">Our photo album needs JavaScript enabled. All of the images also live in the <code>photos</code> folder of this site.</p>
+    </noscript>
+  </section>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Close photo viewer">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Previous photo">&#8249;</button>
+    <figure class="lightbox__figure">
+      <img id="lbImage" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Next photo">&#8250;</button>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="monogram monogram--large" aria-hidden="true">A<span>&amp;</span>I</div>
+  <!-- EDIT ME -->
+  <p class="script footer__thanks">Thank you for being part of our story.</p>
+  <p class="footer__meta">March 2027 &middot; Jaipur</p>
+</footer>
+
+<script src="content/site-content.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
