@@ -73,7 +73,7 @@ The chapter dates (`October 2021`, `December 2025`) are also marked with
 In `index.html`, find:
 
 ```html
-<p class="countdown" id="countdown" data-date="2027-03-13" hidden></p>
+<p class="countdown" id="countdown" data-date="2026-10-24" hidden></p>
 ```
 
 Change `data-date` to your wedding date. Delete the whole line to hide it.
@@ -155,7 +155,7 @@ This website is public and can be found by search engines.
 
 ## 8. Optional extras
 
-- **Custom domain** such as `aaravandisha.com`: buy a domain, then follow
+- **Custom domain** such as `sakshiandmanvendra.com`: buy a domain, then follow
   <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site>.
   The GitHub address stays free; only the domain costs money.
 - **RSVP:** link a free Google Form from the final chapter.
